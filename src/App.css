@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+  }
+  
+  html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  
+  body {
+    background: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    font-family: 'Public Sans', sans-serif;
+    color: antiquewhite;
+  }
+  
+  
+  .leaflet-container {
+    width: 80vw;
+    height: 90vh;
+    border: 2px solid teal;
+    margin: 1rem auto;
+  }
+  
+  .heading {
+    padding: 2rem;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .heading-text {
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  
+  .map-container {
+    border-radius: 5px;
+    box-shadow: 1rem 1rem 5rem 0 rgba(0,0,0,0.75);
+    margin-bottom: 3rem;
+  }
+  
+
+  
+  
